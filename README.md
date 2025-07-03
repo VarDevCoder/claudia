@@ -1,3 +1,20 @@
+> [!NOTE]  
+> **🚨 Windows Build Fix: RC.EXE Icon Format Error Resuelto**
+>
+> Este repositorio incluye una solución para el error común de Windows:
+>
+> ```
+> RC2175: resource file icon.ico is not in 3.00 format
+> ```
+>
+> ✅ Este fix reemplaza el archivo `icon.ico` por una versión válida compatible con `RC.EXE`, permitiendo builds exitosos con Tauri 2 en sistemas Windows.
+>
+> 👉 Ver commit: [`fix(windows): corregido icon.ico no compatible`](https://github.com/VarDevCoder/claudia/commit/1feb843c59fc9fbc62a1cb7297fa6d642e6f847f)
+>
+> Si este commit te ayudó, considera dejar una ⭐ y compartirlo con otros devs usando Tauri en Windows. ¡Nos lo agradecerán!
+
+<div align="center">
+  
 <div align="center">
   <img src="https://github.com/user-attachments/assets/92fd93ed-e71b-4b94-b270-50684323dd00" alt="Claudia Logo" width="120" height="120">
 
